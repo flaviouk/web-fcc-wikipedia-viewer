@@ -1,0 +1,17 @@
+.container{
+	height: 100vh;
+}
+
+#search-label{
+	color: white;
+}
+
+#search-btn{
+	border-bottom-color: white;
+	color: #61FF00;
+}
+
+.input-field{
+	margin-top: 100px;
+	margin-left: 20%;
+}
