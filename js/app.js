@@ -29,14 +29,12 @@ function init(){
 			$('.item-content').append(html);
 			}
 		}
-	
+
 	function ajax(){
 			var api = 'https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch=';
 			var query = $('#search-btn').val();
 			var cb = '&callback=JSON_CALLBACK';
 			var page = 'https://en.wikipedia.org/?curid=';
-
-			
 
 			$.ajax({
 				url: api + query + cb,

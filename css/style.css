@@ -20,3 +20,16 @@
 	width: 100%;
 	margin: 20px;
 }
+
+.footer-copyright{
+	position: fixed;
+    bottom: 20px;
+	text-align: right;
+	color: white;
+	font-size: 17px;
+	margin-left: 40%;
+}
+
+.logo img{
+	width: 70vh;
+}
